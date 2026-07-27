@@ -798,6 +798,33 @@ main {
 .tour-drag-hint-icon::after {
   right: -6px;
 }
+.tour-compass {
+  position: absolute;
+  right: 20px;
+  top: 62px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  background: rgba(14, 13, 11, 0.5);
+  backdrop-filter: blur(6px);
+  color: var(--cream);
+  padding: 7px 14px;
+  border-radius: 100px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  font-variant-numeric: tabular-nums;
+  pointer-events: none;
+}
+.tour-compass-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  flex-shrink: 0;
+  box-shadow: 0 0 6px var(--accent);
+}
 .property-modal-tour-badge {
   position: absolute;
   top: 20px;

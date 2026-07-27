@@ -2,7 +2,14 @@
 
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
-import { animate, motion, useMotionValue, useSpring } from "framer-motion";
+import {
+  animate,
+  motion,
+  useMotionTemplate,
+  useMotionValue,
+  useSpring,
+  useTransform,
+} from "framer-motion";
 import type { GalleryRoom, Property } from "@/data/properties";
 
 function clamp(v: number, min: number, max: number) {
@@ -27,6 +34,12 @@ export default function TourStage({
   const rawB = useMotionValue(0);
   const a = useSpring(rawA, { stiffness: 140, damping: 22, mass: 0.4 });
   const b = useSpring(rawB, { stiffness: 140, damping: 22, mass: 0.4 });
+
+  // Cosmetic compass readout that sweeps with the pano drag — reinforces the
+  // "you're spinning inside a 360° room" feeling rather than mapping to any
+  // real-world bearing.
+  const angle = useTransform(a, (v) => Math.round(((v / 4) % 360 + 360) % 360));
+  const angleText = useMotionTemplate`${angle}°`;
 
   // A brief, cancellable "wiggle" on mount hints that the tour is draggable —
   // the moment the user takes over, we stop it so it never fights their input.
@@ -109,6 +122,12 @@ export default function TourStage({
         <i className="tour-drag-hint-icon" />
         Drag to look around
       </span>
+      {isPano && (
+        <span className="tour-compass">
+          <i className="tour-compass-dot" />
+          <motion.span>{angleText}</motion.span>
+        </span>
+      )}
     </div>
   );
 }

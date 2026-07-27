@@ -35,29 +35,14 @@ export const properties: Property[] = [
     baths: 5,
     sqft: 3200,
     tag: "360° Tour",
-    image:
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200&auto=format&fit=crop",
+    image: "/properties/bandra-sky-residence/exterior.jpg",
     gallery: [
-      {
-        room: "Exterior",
-        image:
-          "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=1400&auto=format&fit=crop",
-      },
-      {
-        room: "Living Room",
-        image:
-          "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1400&auto=format&fit=crop",
-      },
-      {
-        room: "Kitchen",
-        image:
-          "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=1400&auto=format&fit=crop",
-      },
-      {
-        room: "Bathroom",
-        image:
-          "https://images.unsplash.com/photo-1600607688066-890987f18a86?q=80&w=1400&auto=format&fit=crop",
-      },
+      { room: "Exterior", image: "/properties/bandra-sky-residence/exterior.jpg" },
+      { room: "Living Room", image: "/properties/bandra-sky-residence/living-room.jpg" },
+      { room: "Kitchen", image: "/properties/bandra-sky-residence/kitchen.jpg" },
+      { room: "Bedroom", image: "/properties/bandra-sky-residence/bedroom.jpg" },
+      { room: "Bathroom", image: "/properties/bandra-sky-residence/bathroom.jpg" },
+      { room: "Sea View Balcony", image: "/properties/bandra-sky-residence/balcony.jpg" },
     ],
     description:
       "A sky-high residence overlooking the Bandra coastline, where floor-to-ceiling glass frames the Arabian Sea from every room. Fully renovated with Italian marble, a private sky lounge, and smart home controls throughout.",
@@ -83,29 +68,14 @@ export const properties: Property[] = [
     baths: 4,
     sqft: 3800,
     tag: "3D Tour",
-    image:
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop",
+    image: "/properties/whitefield-green-villa/exterior.jpg",
     gallery: [
-      {
-        room: "Exterior",
-        image:
-          "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1400&auto=format&fit=crop",
-      },
-      {
-        room: "Living Room",
-        image:
-          "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=1400&auto=format&fit=crop",
-      },
-      {
-        room: "Kitchen",
-        image:
-          "https://images.unsplash.com/photo-1601760561441-16420502c7e0?q=80&w=1400&auto=format&fit=crop",
-      },
-      {
-        room: "Bathroom",
-        image:
-          "https://images.unsplash.com/photo-1560448075-bb485b067938?q=80&w=1400&auto=format&fit=crop",
-      },
+      { room: "Exterior", image: "/properties/whitefield-green-villa/exterior.jpg" },
+      { room: "Living Room", image: "/properties/whitefield-green-villa/living-room.jpg" },
+      { room: "Kitchen", image: "/properties/whitefield-green-villa/kitchen.jpg" },
+      { room: "Bedroom", image: "/properties/whitefield-green-villa/bedroom.jpg" },
+      { room: "Bathroom", image: "/properties/whitefield-green-villa/bathroom.jpg" },
+      { room: "Private Garden", image: "/properties/whitefield-green-villa/garden.jpg" },
     ],
     description:
       "Tucked into a tech-park-adjacent green pocket of Whitefield, this villa pairs a landscaped private garden with light-filled interiors and a modular kitchen built for entertaining.",
@@ -131,29 +101,14 @@ export const properties: Property[] = [
     baths: 6,
     sqft: 5500,
     tag: "3D Tour",
-    image:
-      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?q=80&w=1200&auto=format&fit=crop",
+    image: "/properties/jubilee-hills-manor/exterior.jpg",
     gallery: [
-      {
-        room: "Exterior",
-        image:
-          "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?q=80&w=1400&auto=format&fit=crop",
-      },
-      {
-        room: "Living Room",
-        image:
-          "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?q=80&w=1400&auto=format&fit=crop",
-      },
-      {
-        room: "Kitchen",
-        image:
-          "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?q=80&w=1400&auto=format&fit=crop",
-      },
-      {
-        room: "Bathroom",
-        image:
-          "https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=1400&auto=format&fit=crop",
-      },
+      { room: "Exterior", image: "/properties/jubilee-hills-manor/exterior.jpg" },
+      { room: "Living Room", image: "/properties/jubilee-hills-manor/living-room.jpg" },
+      { room: "Kitchen", image: "/properties/jubilee-hills-manor/kitchen.jpg" },
+      { room: "Bedroom", image: "/properties/jubilee-hills-manor/bedroom.jpg" },
+      { room: "Bathroom", image: "/properties/jubilee-hills-manor/bathroom.jpg" },
+      { room: "Private Lawn", image: "/properties/jubilee-hills-manor/lawn.jpg" },
     ],
     description:
       "An address synonymous with old-money Hyderabad, this manor sits on a quiet tree-lined avenue in Jubilee Hills with a private lawn, a formal living wing, and staff quarters.",
@@ -179,29 +134,14 @@ export const properties: Property[] = [
     baths: 4,
     sqft: 4200,
     tag: "360° Tour",
-    image:
-      "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?q=80&w=1200&auto=format&fit=crop",
+    image: "/properties/assagao-courtyard-villa/exterior.jpg",
     gallery: [
-      {
-        room: "Exterior",
-        image:
-          "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?q=80&w=1400&auto=format&fit=crop",
-      },
-      {
-        room: "Living Room",
-        image:
-          "https://images.unsplash.com/photo-1554995207-c18c203602cb?q=80&w=1400&auto=format&fit=crop",
-      },
-      {
-        room: "Kitchen",
-        image:
-          "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=1400&auto=format&fit=crop",
-      },
-      {
-        room: "Bathroom",
-        image:
-          "https://images.unsplash.com/photo-1600607688066-890987f18a86?q=80&w=1400&auto=format&fit=crop",
-      },
+      { room: "Exterior", image: "/properties/assagao-courtyard-villa/exterior.jpg" },
+      { room: "Living Room", image: "/properties/assagao-courtyard-villa/living-room.jpg" },
+      { room: "Kitchen", image: "/properties/assagao-courtyard-villa/kitchen.jpg" },
+      { room: "Bedroom", image: "/properties/assagao-courtyard-villa/bedroom.jpg" },
+      { room: "Bathroom", image: "/properties/assagao-courtyard-villa/bathroom.jpg" },
+      { room: "Plunge Pool", image: "/properties/assagao-courtyard-villa/pool.jpg" },
     ],
     description:
       "A Portuguese-influenced courtyard villa minutes from Assagao's village lanes, built around a private plunge pool and shaded verandas that catch the evening breeze off the Chapora river.",
@@ -227,29 +167,14 @@ export const properties: Property[] = [
     baths: 5,
     sqft: 4600,
     tag: "3D Tour",
-    image:
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1200&auto=format&fit=crop",
+    image: "/properties/vasant-vihar-residence/exterior.jpg",
     gallery: [
-      {
-        room: "Exterior",
-        image:
-          "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1400&auto=format&fit=crop",
-      },
-      {
-        room: "Living Room",
-        image:
-          "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?q=80&w=1400&auto=format&fit=crop",
-      },
-      {
-        room: "Kitchen",
-        image:
-          "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=1400&auto=format&fit=crop",
-      },
-      {
-        room: "Bedroom",
-        image:
-          "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?q=80&w=1400&auto=format&fit=crop",
-      },
+      { room: "Exterior", image: "/properties/vasant-vihar-residence/exterior.jpg" },
+      { room: "Living Room", image: "/properties/vasant-vihar-residence/living-room.jpg" },
+      { room: "Kitchen", image: "/properties/vasant-vihar-residence/kitchen.jpg" },
+      { room: "Bedroom", image: "/properties/vasant-vihar-residence/bedroom.jpg" },
+      { room: "Bathroom", image: "/properties/vasant-vihar-residence/bathroom.jpg" },
+      { room: "Private Pool", image: "/properties/vasant-vihar-residence/pool.jpg" },
     ],
     description:
       "A diplomatic-enclave residence in Vasant Vihar built around a private pool and terraced lawn, with a formal dining wing suited to hosting and a discreet, security-forward layout.",
@@ -275,29 +200,14 @@ export const properties: Property[] = [
     baths: 4,
     sqft: 3600,
     tag: "3D Tour",
-    image:
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1200&auto=format&fit=crop",
+    image: "/properties/koregaon-park-estate/exterior.jpg",
     gallery: [
-      {
-        room: "Exterior",
-        image:
-          "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1400&auto=format&fit=crop",
-      },
-      {
-        room: "Living Room",
-        image:
-          "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=1400&auto=format&fit=crop",
-      },
-      {
-        room: "Kitchen",
-        image:
-          "https://images.unsplash.com/photo-1601760561441-16420502c7e0?q=80&w=1400&auto=format&fit=crop",
-      },
-      {
-        room: "Bathroom",
-        image:
-          "https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=1400&auto=format&fit=crop",
-      },
+      { room: "Exterior", image: "/properties/koregaon-park-estate/exterior.jpg" },
+      { room: "Living Room", image: "/properties/koregaon-park-estate/living-room.jpg" },
+      { room: "Kitchen", image: "/properties/koregaon-park-estate/kitchen.jpg" },
+      { room: "Bedroom", image: "/properties/koregaon-park-estate/bedroom.jpg" },
+      { room: "Bathroom", image: "/properties/koregaon-park-estate/bathroom.jpg" },
+      { room: "Private Courtyard", image: "/properties/koregaon-park-estate/courtyard.jpg" },
     ],
     description:
       "Set on a leafy Koregaon Park lane, this estate blends Pune's old-world charm with a fully modernised interior — exposed wood beams, a sunken living room, and a private courtyard garden.",
