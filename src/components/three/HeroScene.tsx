@@ -235,8 +235,8 @@ export default function HeroScene({
   return (
     <Canvas
       camera={{ position: [0, 2.4, 13], fov: 42 }}
-      dpr={[1, 2]}
-      gl={{ antialias: true, alpha: true }}
+      dpr={isMobile ? [1, 1.5] : [1, 2]}
+      gl={{ antialias: !isMobile, alpha: true }}
       onCreated={({ gl }) => {
         gl.setClearColor(0x000000, 0);
       }}

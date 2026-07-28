@@ -67,6 +67,13 @@ export default function Nav() {
             exit={{ x: "100%" }}
             transition={{ duration: 0.5, ease: [0.16, 0.84, 0.44, 1] }}
           >
+            <button
+              className="modal-close mobile-menu-close"
+              aria-label="Close menu"
+              onClick={() => setOpen(false)}
+            >
+              ✕
+            </button>
             {links.map((link, i) => (
               <motion.a
                 key={link.href}

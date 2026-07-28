@@ -39,6 +39,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -142,7 +143,7 @@ em {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000;
+  z-index: 1150;
   padding: 26px 0;
   transition:
     padding 0.4s var(--ease),
@@ -232,6 +233,9 @@ em {
   justify-content: center;
   gap: 26px;
   padding: 40px;
+}
+.modal-close.mobile-menu-close {
+  top: 110px;
 }
 .mobile-menu a {
   color: var(--cream);
@@ -681,6 +685,7 @@ main {
   font-family: var(--font-display);
   font-size: 1.25rem;
   font-weight: 500;
+  min-width: 0;
 }
 .price {
   font-weight: 700;
@@ -1007,6 +1012,16 @@ main {
   }
   .property-modal-details {
     padding: 30px 24px 34px;
+  }
+  .tour-drag-hint {
+    display: none;
+  }
+  .property-modal-tour-badge {
+    font-size: 0.62rem;
+    padding: 7px 13px 7px 10px;
+  }
+  .tour-compass {
+    top: 20px;
   }
 }
 
@@ -2054,5 +2069,8 @@ main {
   }
   .filter-bar {
     border-radius: var(--radius);
+  }
+  .cta-bg {
+    background-attachment: scroll;
   }
 }
